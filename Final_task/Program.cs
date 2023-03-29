@@ -8,7 +8,7 @@ Console.Clear();
 Console.Write("Введите элементы массива через пробел: ");
 string elements = Console.ReadLine()!;
 
-PrintArray(elements);
+
 
 // string[] FormsArrString(string elements)
 // {
@@ -24,3 +24,5 @@ void PrintArray(string inArray)
   }
   Console.Write(" ]");
 }
+
+PrintArray(elements);
